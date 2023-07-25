@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Merriweather:wght@300;400;700&display=swap');
+.redressed
+{
+    font-family: 'Redressed', cursive;
+}
+.merriweather
+{
+    font-family: 'Merriweather', serif;
+} 
+.cc-navbar
+{
+    background-color: rgba(0,.0,.0,0.55);
+    font-family: 'Merriweather', serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+}
+.cc-navbar .nav-link
+{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color .3s ease ;
+}
+.cc-navbar .nav-link:hover
+{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.banner
+{
+    background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url(use.jpg) center center fixed no-repeat;
+    height: 800px;
+    background-size: cover;
+}
+
+.banner .banner-desc 
+{
+    font-size: 48px;
+    font-weight: 400;
+    color:#fff;
+}   
+.cc-menu
+{
+    background: linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url(use.jpg) center center fixed no-repeat;
+    height: 1200px;
+    background-size: cover;
+}
+.btn-order
+{
+    color: var(--bs-teal);
+    border-colorvar: (--bs-teal);
+    transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active
+{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+.red
+{
+    color: #fff;
+}
+.footer{
+    background: #000;
+    color:white;
+    
+    .links{
+      ul {list-style-type: none;}
+      li a{
+        color: white;
+        transition: color .2s;
+        &:hover{
+          text-decoration:none;
+          color:#4180CB;
+          }
+      }
+    }  
+    .about-company{
+      i{font-size: 25px;}
+      a{
+        color:white;
+        transition: color .2s;
+        &:hover{color:#4180CB}
+      }
+    } 
+    .location{
+      i{font-size: 18px;}
+    }
+    .copyright p{border-top:1px solid rgba(255,255,255,.1);} 
+  }
+  View Compiled
+  Run Pen
+  Resources

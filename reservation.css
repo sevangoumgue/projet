@@ -1,0 +1,42 @@
+.loup
+{
+        width : 1950px;
+        height : 950px;
+        border-radius: 10px
+}
+body
+{
+        background-image: url(eel.jpg);
+        background-repeat: repeat;
+        height: auto;
+        width: 100%;      
+
+}
+#plus
+{
+      background-color: black;  
+      color: darkorange;
+}
+.dog{ 
+        margin: 90px; 
+    } 
+   /* html
+    {
+        width: 1000px;
+        margin-right: auto;
+        margin-left: auto;
+       display: flex;   
+    }*/
+img{
+        width: 600px;
+        margin-right: auto;
+        margin-left: auto;
+       display: flex;      
+}
+#blue
+{
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+       display: flex; 
+}
