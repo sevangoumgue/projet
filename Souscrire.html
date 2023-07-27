@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="neoreserv.css">
+  </head>
+  <body class="blanc">
+      <header>
+          <nav class="cc-navbar navbar navbar-expand-lg  position-fixed navbar-dark w-100">
+              <div class="container-fluid">
+                <a class="navbar-brand text-uppercase fw-bolder mx-4 py-3" href="#">Location d'hotel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-4">
+                      <a class="nav-link active" aria-current="page" href="file:///C:/Users/sevan/OneDrive/Desktop/Reservation/neoreserv.html#">Accueil</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                      <a class="nav-link" href="Apropos.html">Apropos</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                      <a class="btn btn-order red rounded-0" href="#">Souscrire</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+      </header>
+      <section class="order-form py-5">
+        <div class="container">
+          <br                                                       />
+          <br                                                       />
+           <h2 class="merriweather text-center text-light mb-4">Reserver un hotel </h2>
+          <form>
+            <div class="row">
+              <div class="col-md-6 col-sm">
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Votre nom" />
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-user"></i></span>
+                </div> 
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01"><i class="fab fa-utesils"></i>"</label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Choisir un hotel</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>  
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01"><i class="fab fa-sort-numeric-up-alt"></i>"</label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Quel est la duree de votre sejour</option>
+                    <option value="1">1-3jour</option>
+                    <option value="2">4-7jour</option>
+                    <option value="3">7jour et plus</option>
+                  </select>
+                </div>  
+                <div class="input-group mb-3">
+                  <label class="input-group-text" for="inputGroupSelect01"><i class="fab fa-sort-numeric-up-alt"></i>"</label>
+                  <select class="form-select" id="inputGroupSelect01">
+                    <option selected>Nombre d'hotel</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>     
+              </div>
+              <div class="col-md-6 col-sm">
+                <div class="input-group mb-3">
+                  <input type="email" class="form-control" placeholder="Votre email" />
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-at"></i></span>
+                </div>  
+                <div class="input-group mb-3">
+                  <input type="number" class="form-control" placeholder="Votre contact" />
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-phone"></i></span>
+                </div>   
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Dans quel ville souhaitez vous reserver? Ex: Yaounde" />
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-home"></i></span>
+                </div> 
+                <div class="input-group mb-3">
+                  <input type="text" class="form-control" placeholder="Dans quel quartier souhaitez vous residez? Ex: Yaounde" />
+                  <span class="input-group-text" id="basic-addon1"><i class="fas fa-home"></i></span>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Numero de carte bancaire</span>
+                <input type="text" class="form-control" placeholder="" />
+              </div> 
+              <div class="input-group">
+                <span class="input-group-text">Plus d'information</span>
+                <textarea class="form-control" aria-label="With textarea"></textarea>
+              </div>
+            </div><br   />
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Souscrire</button>
+                <button type="submit" class="btn btn-primary mb-3">Valider le paiement</button>
+            </div>
+            
+          </form>
+        </div>
+      </section>
+      <footer class="bg-light text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form5Example27" class="form-control" />
+                    <label class="form-label" for="form5Example27">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary mb-4">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-dark"></a>
+        </div>
+       
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+ 

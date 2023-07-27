@@ -1,64 +1,124 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<meta charset="utf-8" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-		
-		<title> hotel2 </title>
-		<link rel="stylesheet" href="Apropos.css">
-	</head>
-	<body>
-		<div class="qw">		
-		<header>	
-			<nav class="navbar navbar-dark bg-dark fixed-top">
-				<button class="navbar-toggler"role="button"style = "margin-right:1020px" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-				</button>
-				<div class="droite">  
-				<div class="container">
-					<div class="row">
-						<div class="col-">  
-							<a class="btn btn-warning" href=file:///C:/Users/sevan/OneDrive/Desktop/Reservation/neoreserv.html#>Accueil</a>
-							<a class="btn btn-warning" href="hotel2.html">Liste d'hotel disponible</a>
-							<a class="btn btn-warning" href="Apropos.html">À propos</a>
-							<a class="btn btn-warning" href="hotel.html">Contact</a>  
-						</div>
-					</div>
-				</div>   
-				</div>                      
-			</nav>
-			<div>
-				<h1>LOCATION D'HOTEL</h1>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="neoreserv.css">
+  </head>
+  <body style = "color: aliceblue">
+      <header>
+          <nav class="cc-navbar navbar navbar-expand-lg  position-fixed navbar-dark w-100">
+              <div class="container-fluid">
+                <a class="navbar-brand text-uppercase fw-bolder mx-4 py-3" href="#">Location d'hotel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item pe-4">
+                      <a class="nav-link active" aria-current="page" href="file:///C:/Users/sevan/OneDrive/Desktop/Reservation/neoreserv.html#">Accueil</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                      <a class="nav-link" href="file:///C:/Users/sevan/OneDrive/Desktop/Reservation/Apropos.html">Apropos</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item pe-4">
+                      <a class="btn btn-order red rounded-0" href="#">Souscrire</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+      </header>
+      <section class="order-form py-5">
+        <div class="container">
+          <br                                                       />
+          <br                                                       />
+			<div class="qw">			
+				<div>
+					<h1>LOCATION D'HOTEL</h1>
+				</div>
+			<section>
+					<h2> A propos </h2>
+					</p>
+					<p> Ce site a pour but de promouvoir la location d'infracstructure immobiliere dans notre pays. </p>
+					<p> Il permet a tous ceux qui recherche  des infracstructures hotelieres de qualite de se satisfaire selon leurs gouts et leurs exigences.</p>
+					<p> Nos differents hotels mettent a votre disposition une variete de services et d'attractions a votre disposition .</p>
+					<p>Pour souscrire a nos differents services , la procedure a suivre est la suivante :</p><br/>
+						<div>
+							<ul>
+								<li> Creer une adresse email valide </li><br/>
+								<li> Entrer dans notre site<a href="inscription.html">Inscrivez vous</a></li><br/>
+								<li> Entrer votre nom </li><br/>
+								<li> Entrer votre adresse email </li><br/>
+								<li> Entrer votre numero de telephone <li><br/>
+								<li> Entrer votre numero de carte bancaire </li><br/>
+								<li> Faire le choix de l'hotel et valider le paiement </li><br/><br/><br/>
+							</ul>	
+						</div>	
+							<form class="rt">
+								<label for="ameliorer">
+								Pour plus d'information laisser nous un message
+								</label><br/>
+								<textarea name="ameliorer" id="ameliorer" rows="10"
+								cols="50"></textarea><br />
+								<input type="submit" value="Envoyer" />
+							</form class="rt">
+			</section>	
 			</div>
-		</header>
-		<section>
-				<h2> A propos </h2>
-				</p>
-				<p> Ce site a pour but de promouvoir la location d'infracstructure immobiliere dans notre pays. </p>
-				<p> Il permet a tous ceux qui recherche  des infracstructures hotelieres de qualite de se satisfaire selon leurs gouts et leurs exigences.</p>
-				<p> Nos differents hotels mettent a votre disposition une variete de services et d'attractions a votre disposition .</p>
-				<p>Pour souscrire a nos differents services , la procedure a suivre est la suivante :</p><br/>
-					<div>
-						<ul>
-							<li> Creer une adresse email valide </li><br/>
-							<li> Entrer dans notre site<a href="inscription.html">Inscrivez vous</a></li><br/>
-							<li> Entrer votre nom </li><br/>
-							<li> Entrer votre adresse email </li><br/>
-							<li> Entrer votre numero de telephone <li><br/>
-							<li> Entrer votre numero de carte bancaire </li><br/>
-							<li> Faire le choix de l'hotel et valider le paiement </li><br/><br/><br/>
-						</ul>	
-					</div>	
-						<form class="rt">
-							<label for="ameliorer">
-							Pour plus d'information laisser nous un message
-							</label><br/>
-							<textarea name="ameliorer" id="ameliorer" rows="10"
-							cols="50"></textarea><br />
-							<input type="submit" value="Envoyer" />
-						</form class="rt">
-		</section>	
-		</div>	
-	</body>	
+      </section>
+      <footer class="bg-light text-center">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Form -->
+          <section class="">
+            <form action="">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center">
+                <!--Grid column-->
+                <div class="col-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-md-5 col-12">
+                  <!-- Email input -->
+                  <div class="form-outline mb-4">
+                    <input type="email" id="form5Example27" class="form-control" />
+                    <label class="form-label" for="form5Example27">Email address</label>
+                  </div>
+                </div>
+                <!--Grid column-->
+      
+                <!--Grid column-->
+                <div class="col-auto">
+                  <!-- Submit button -->
+                  <button type="submit" class="btn btn-primary mb-4">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+              <!--Grid row-->
+            </form>
+          </section>
+          <!-- Section: Form -->
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright:
+          <a class="text-dark"></a>
+        </div>
+       
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
 </html>							
 					
 				.
